@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>WEB1 - html</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <ul>
+        <li>egoing</li>
+        <li>k8805</li>
+        <li>youbin</li>
+    </ul>
+    <h1>HTML</h1>
+    <p><a href="https://www.w3.org/TR/html52/"
+        target="_blank" title="html5 speicification">Hypertext Markup Language (HTML)</a> is the standard markup
+        language for creating web pages and web applications
+        With Cascading Style Sheets CSS and JavaScript it forms
+        a triad of cornerstone technologies for the World Wide Web
+        Web browsers receive HTML documents</p>
+    <img src="cording.jpg" width="200">
+    <p style="margin-top: 45px;">'ol'은 리스트앞에 숫자를 붙혀줌<br>
+    'ul'은 리스트 끼리의 구분만 할때 사용<br>
+    'li'는 리스트라는 의미<br>
+    'h1~6'은 재목을 사용할 때<br>
+    'p'는 문단을 구분할 때<br>
+    'br'은 줄바꿈<br>
+    'head'는 사이트의 설명을 감쌈<br>
+    'body'는 사이트의 내용을 감쌈<br>
+    'title'은 사이트의 제목을 바꿈<br>
+    'html'은 시작과 끝은 감쌈<br>
+    '!doctype html'은 시작부분에 사용<br>
+    'meta charset="utf-8"'은 'utf-8'로 글자를 읽어달라는 의미<br>
+    'a href'는 링크를 걸어줄 부분과 주소를 입력<br>
+        -'target="_blank"'새창에서 열기<br>
+        -'title'은 링크에 대한 설명</p>
+</body>
+</html>
