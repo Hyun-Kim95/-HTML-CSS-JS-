@@ -35,6 +35,7 @@
     'html'은 시작과 끝은 감쌈<br>
     '!doctype html'은 시작부분에 사용<br>
     'meta charset="utf-8"'은 'utf-8'로 글자를 읽어달라는 의미<br>
+    'img src'는 이미지 불러오기<br>
     'a href'는 링크를 걸어줄 부분과 주소를 입력<br>
         -'target="_blank"'새창에서 열기<br>
         -'title'은 링크에 대한 설명</p>
