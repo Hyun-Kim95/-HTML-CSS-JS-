@@ -12,13 +12,31 @@
 
   gtag('config', 'G-B7J46GVHPG');
 </script>
+<style>
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    .saw{
+        color:gray;
+    }
+    #active{
+        color: red;
+        text-decoration: underline;
+    }
+    h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+    }           
+</style>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
     <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
+        <li><a href="1.html" class="saw">HTML</a></li>
+        <li><a href="2.html" class="saw" id="active">CSS</a></li>
+        <li><a href="3.html" class="saw">JavaScript</a></li>
     </ol>
     <h2>CSS</h2>
     <p>
@@ -32,6 +50,37 @@
         a cornerstone technology used by most websites to create visually 
         engaging webpages user interfaces for web applications and user 
         interfaces for many mobile applications
+    </p>
+    <p>
+        'html'은 정보 'css'는 디자인<br>
+        ';'은 효과지정 마지막에 꼭 표시해야함<br>
+        'style' 사이의 문자를 css로 인식하라는 테그<br>
+            'a {}'는 선택자로써 누구한테 적용할지<br>
+            -'color: 와 ;' 사이에 색깔을 넣어주면 됨<br>
+        'style="color:red"'는 css로 인식하게 해줌<br>
+        'text-decoration: none;'는 텍스트의 밑줄을 없애줌<br>
+        'text-decoration: underline;'은 텍스트의 밑줄을 만듬<br>
+        'property' css의 속성(검색할때 필요)<br>
+        'selector' 선택자(검색할때 필요<br>)
+        'font-size'는 글자 크기<br>
+        'text-align' 은 글자 정렬<br>
+        'class=name'클래스를 설정해서 .name으로 설정가능<br>
+            -클래스는 여러개 설정할 수 있고 띄어쓰기로 나눠짐<br>
+        'id=name'클래스보다 상위 포지션 #name으로 설정가능<br>
+        '선택자,클래스,아이디'순서이다<br>
+            -선택자들끼리면 마지막에 등장한 애가 우선순위를 가짐<br>
+        '/*,*/'CSS의 주석<br>
+        'block level element' 화면전체를 사용함<br>
+        'inline element' 자기 크기만 갖은<br>
+        'display:inline;','display:block;'은 block level element 또는 inline element로 바꿔주는 역할<br>
+        'display:none;' 하면 태그가 화면에서 없어짐<br>
+        중복은 a,b{~} 이런식으로 사용 가능<br>
+        border-color, border-style 등을 합쳐서 border:5px solid red 이렇게 쓸 수 있다.<br>
+        'padding'은 border와 문자 간의 간격<br>
+        'margin' 은 border와 border 사이의 간격<br>
+        'width' 폭을 바꿀 수 있음<br>
+        'height' 높이를 바꿀 수 있음<br>
+        'border-bottom' 박스의 바닥<br>
     </p>
     <p>
         <div id="disqus_thread"></div>
