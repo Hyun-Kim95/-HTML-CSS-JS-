@@ -17,6 +17,14 @@
 <body>
     <h1><a href="index.html">WEB</a></h1>
 <div id="grid">
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    ">
+    <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    ">
     <ol>
         <li><a href="1.html">HTML</a></li>
         <li><a href="2.html">CSS</a></li>
@@ -40,6 +48,26 @@
         </p>
     </div>
 </div>
+    <p>
+        'JavaScript'는 동적인 언어<br>
+        'script'테그를 쓰면 자바스크립트로 인식<br>
+        'document.write()'글을 써주는데 1+1과 같이 적으면 계산된 값이 출력<br>
+        'onclick'뒤에는 무조건 자바스크립트가 와야함<br>
+        'input'<br>
+            -'type="button"' 버튼을 만듬<br>
+            -'value=""' 버튼에 글을 씀<br>
+            -'onclick="alert()"' 클릭했을 때 경고창에 띄울 글<br>
+                -'onclick="document.querySelector('')"' 선택자(클릭시 가져올 태그)<br>
+            -'type="text"' 글쓰는 칸을 만듬<br>
+                -'onchange="alert()"' 글의 내용이 바뀌면 실행될 자바스크립트코드(alert)<br>
+                -'onkeydown="alert()"' 칸 위에서 아무 키를 누르면 실행될 자바스크립트코드(alert)<br>
+        -웹사이트-검사-console 들어가면 보고있는 웹사이트에 대해서 자바스크립트를 실행할 수 있다.<br>
+        ex) alert("".length) 로 문장의 길이를 확인 가능(alert은 안써도 됨)<br>
+        -"".toUpperCase() 문자들을 대문자로 바꿈<br>
+        -"".indexof('') 찾는 문자열의 위치 반환(왼쪽(0)부터)<br>
+        -"".trim() 공백제거<br>
+        변수를 선언할 때는 앞에 'var'을 붙혀주는게 좋음<br>
+    </p>
     <p>
         <div id="disqus_thread"></div>
 <script>
